@@ -10,6 +10,52 @@
   background-color: #10121b;
   min-height: 100vh;
   display: grid;
+  position: relative;
+}
+.App .main-content .content {
+  margin: 5rem 15rem;
+}
+
+.Home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+.hero-text span {
+  color: #037fff;
+}
+
+.h-sub-text {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.icons .icon-holder {
+  margin-right: 1rem;
+  border: 1px solid red;
+  font-size: 1rem;
+}
+.icons .icon-holder .icon {
+  padding: 10px;
+  color: #a4acc4;
+  transition: all 0.4s ease-in-out;
+}
+.icons .icon-holder .icon:hover {
+  background-color: red;
 }
 
 .Navbar {
@@ -61,6 +107,134 @@
   background-color: #037fff;
 }
 
+.Title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: white;
+  position: relative;
+  padding-bottom: 1rem;
+  letter-spacing: 2px;
+}
+.Title::before {
+  content: "";
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  background-color: #0381ff6c;
+  width: 6rem;
+  height: 0.4rem;
+  border-radius: 50px;
+}
+.Title::after {
+  content: "";
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  background-color: #037fff;
+  width: 3rem;
+  height: 0.4rem;
+  border-radius: 50px;
+}
+.Title span {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  font-size: 4.5rem;
+  opacity: 0.07;
+}
+
+.ImageSection {
+  display: flex;
+  margin-top: 4rem;
+}
+.ImageSection .img {
+  width: 100%;
+  height: 50vh;
+}
+.ImageSection .img img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.ImageSection .about-info {
+  margin-left: 2rem;
+}
+.ImageSection .about-info h4 {
+  font-size: 2rem;
+}
+.ImageSection .about-info .about-text {
+  padding: 1rem 0;
+}
+
+.about-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.about-details p {
+  padding: 0.3rem 0;
+}
+.btn {
+  padding: 1rem 2rem;
+  background-color: #037fff;
+  outline: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  position: relative;
+}
+.btn::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0.3rem;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  transition: all 0.4s ease-in-out;
+}
+.btn:hover::after {
+  width: 100%;
+}
+
+.about-skills-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.SkillSection .skills-container .skill-title {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.SkillSection .skills-container .skill-bar {
+  display: flex;
+  align-items: center;
+}
+.SkillSection .skills-container .skill-bar .skill-progress {
+  width: 100%;
+}
+.SkillSection .skills-container .skill-bar .skill-progress .progress {
+  position: relative;
+  width: 100%;
+  height: 0.5rem;
+  background-color: red;
+  margin-left: 1rem;
+  background-color: #0381ff3f;
+}
+.SkillSection .skills-container .skill-bar .skill-progress .progress .inner-progress {
+  position: absolute;
+  background-color: #037fff;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -71,6 +245,10 @@ body {
   color: #a4acc4;
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
+}
+
+span {
+  color: #037fff;
 }
 
 /*# sourceMappingURL=App.css.map */
