@@ -1,5 +1,6 @@
 .SkillSection {
   .skills-container {
+    margin-top: 4rem;
     .skill-title {
       font-size: 1.4rem;
       font-weight: 400;
@@ -11,6 +12,7 @@
       }
       .skill-progress {
         width: 100%;
+
         .progress {
           position: relative;
           width: 100%;
