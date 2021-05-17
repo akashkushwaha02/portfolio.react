@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import CV from "../static/Akash_ReactJs_YOE1+.pdf";
 import about from "../img/about.jpg";
 
 function ImageSection() {
@@ -33,7 +35,12 @@ function ImageSection() {
             <p>: Tilhari,Jabalpur, Madhya Pradesh</p>
           </div>
         </div>
-        <button className="btn">Download Cv</button>
+
+        <button className="btn">
+          <a href={CV} style={{ textDecoration: "none" }}>
+            Download Cv
+          </a>
+        </button>
       </div>
     </div>
   );

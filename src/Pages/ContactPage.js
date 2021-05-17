@@ -28,7 +28,7 @@ function ContactPage() {
           <ContactItem icon={phone} text1={"+91 7489653839"} title={"Phone"} />
           <ContactItem
             icon={email}
-            text1={"akash.kushwaha@gmail.com"}
+            text1={"akash.kushwaha02@gmail.com"}
             title={"Email"}
           />
           <ContactItem

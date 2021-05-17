@@ -10,13 +10,13 @@ function AboutPage() {
       <ImageSection />
       <Tittle title={"My Skills"} span={"My Skills"} />
       <div className="skillsContainer">
-        <SkillsSection skill={"Javascript"} progress={"60%"} width={"60%"} />
+        <SkillsSection skill={"Javascript"} progress={"65%"} width={"65%"} />
 
-        <SkillsSection skill={"React Js"} progress={"70%"} width={"70%"} />
-        <SkillsSection skill={"HTML"} progress={"30%"} width={"30%"} />
-        <SkillsSection skill={"CSS"} progress={"30%"} width={"30%"} />
-        <SkillsSection skill={"SASS"} progress={"30%"} width={"30%"} />
-        <SkillsSection skill={"Bootstrap"} progress={"30%"} width={"30%"} />
+        <SkillsSection skill={"React Js"} progress={"50%"} width={"50%"} />
+        <SkillsSection skill={"HTML"} progress={"60%"} width={"60%"} />
+        <SkillsSection skill={"CSS"} progress={"60%"} width={"60%"} />
+        <SkillsSection skill={"SASS"} progress={"60%"} width={"60%"} />
+        <SkillsSection skill={"Bootstrap"} progress={"60%"} width={"60%"} />
         <SkillsSection skill={"Java"} progress={"80%"} width={"80%"} />
         <SkillsSection skill={"Web Design"} progress={"25%"} width={"25%"} />
       </div>
