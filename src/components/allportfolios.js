@@ -1,80 +1,54 @@
-import port1 from "../img/portImages/maya-1.jpg";
-import port2 from "../img/portImages/port1.jpg";
-import port3 from "../img/portImages/port2.jpg";
-import port4 from "../img/portImages/port3.jpg";
-import port6 from "../img/portImages/port5.jpg";
-import port7 from "../img/portImages/port6.jpg";
+import twitter from "../img/portImages/twitter.PNG";
+import chrome from "../img/portImages/chrome.PNG";
+import fylo from "../img/portImages/fylo.jpg";
+import netflix from "../img/portImages/netflix.PNG";
+import disney from "../img/portImages/disney.PNG";
 
 const portfolios = [
   {
     id: 1,
-    category: "Animation",
+    category: "HTML/CSS",
     link1: "www.youtube.com",
     link2: "www.github.com",
     icon1: "G",
-    icon2: "Y",
-    image: port1,
-    title: "Autodesk Maya",
+    image: chrome,
+    title: "Chrome Landing Page",
   },
   {
     id: 2,
-    category: "Python",
+    category: "SASS",
     link1: "www.youtube.com",
     link2: "www.github.com",
     icon1: "G",
-    icon2: "Y",
-    image: port2,
-    title: "Python Web Scrapping",
+    image: twitter,
+    title: "Twitter Landing page",
   },
   {
     id: 3,
-    category: "Animation",
+    category: "SASS",
     link1: "www.youtube.com",
     link2: "www.github.com",
     icon1: "G",
-    icon2: "Y",
-    image: port3,
-    title: "Autodesk Maya",
+    image: disney,
+    title: "Disney + Hotstar",
   },
   {
     id: 4,
-    category: "Javascript",
+    category: "SASS",
     link1: "www.youtube.com",
     link2: "www.github.com",
     icon1: "G",
-    icon2: "Y",
-    image: port4,
-    title: "Vanilla Javascript Website",
+    image: netflix,
+    title: "Responsive Netflix landing page",
   },
   {
     id: 5,
-    category: "React Js",
+    category: "SASS",
     link1: "www.youtube.com",
     link2: "www.github.com",
     icon1: "G",
-    icon2: "Y",
-    image: port6,
-    title: "Getting Started With React",
-  },
-  {
-    id: 6,
-    category: "React Js",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
-    image: port7,
-    title: "Vanilla Javascript Website",
-  },
-  {
-    id: 7,
-    category: "Test Port",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
-    image: port4,
-    title: "Vanilla Javascript Website",
+    image: fylo,
+    title: "Fylo-component",
   },
 ];
 

@@ -1,14 +1,15 @@
 import React from "react";
-import avatar from "./../img/avatar.jpg";
+import avatar from "../img/avatar.jpg";
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="Navbar">
+    <div className="NavBar">
       <nav className="nav">
         <div className="profile">
           <img src={avatar} alt="" />
         </div>
+
         <ul className="nav-items">
           <li className="nav-item">
             <NavLink to="/" exact activeClassName="active">
@@ -17,12 +18,12 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <NavLink to="/about" exact activeClassName="active">
-              about
+              About
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink to="/portfolios" exact activeClassName="active">
-              portfolios
+              Portfolios
             </NavLink>
           </li>
           <li className="nav-item">
@@ -36,8 +37,9 @@ function Navbar() {
             </NavLink>
           </li>
         </ul>
+
         <footer className="footer">
-          <p>Akash Singh Kushwaha</p>
+          <p>@2021 Knight</p>
         </footer>
       </nav>
     </div>

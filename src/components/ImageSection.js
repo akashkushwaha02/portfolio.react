@@ -9,29 +9,31 @@ function ImageSection() {
       </div>
       <div className="about-info">
         <h4>
-          I am <span> IRONMAN</span>
+          I am<span> Akash Singh Kushwaha</span>
         </h4>
         <p className="about-text">
-          lorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsum
-          lorem ipsumlorem ipsu
+          A 23 year old Web developer living in Jabalpur, India. I am a Computer
+          Science Engineer, currently looking for a Job as Reactjs Developer.
+          Have a look at my skills and connect with me on LinkedIn. I am always
+          excited to talk with new and great minded people.
         </p>
         <div className="about-details">
           <div className="left-section">
             <p>Full Name</p>
             <p>Age</p>
-            <p>Address</p>
             <p>Nationality</p>
             <p>Languages</p>
+            <p>Address</p>
           </div>
           <div className="right-section">
-            <p className="">: AKASH SINGH KUSHWAHA </p>
-            <p className="">: 23</p>
-            <p className="">: Jabalpur</p>
-            <p className="">: Indian</p>
-            <p className="">: Hindi, English</p>
+            <p>: Akash Singh Kushwaha</p>
+            <p>: 23</p>
+            <p>: Indian</p>
+            <p>: Hindi, English</p>
+            <p>: Tilhari,Jabalpur, Madhya Pradesh</p>
           </div>
         </div>
-        <button className="btn">Download CV</button>
+        <button className="btn">Download Cv</button>
       </div>
     </div>
   );
