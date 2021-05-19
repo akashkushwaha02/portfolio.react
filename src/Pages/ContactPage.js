@@ -4,10 +4,14 @@ import phone from "../img/phone.svg";
 import email from "../img/emailme.svg";
 import location from "../img/location.svg";
 import Tittle from "../Components/Tittle";
+import { Helmet } from "react-helmet";
 
 function ContactPage() {
   return (
     <div>
+      <Helmet>
+        <title>Akash's Portfolio | Contact</title>
+      </Helmet>
       <div className="title">
         <Tittle title={"About"} span={"About"} />
       </div>

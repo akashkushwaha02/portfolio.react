@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Tittle from "../Components/Tittle";
 import ImageSection from "../Components/ImageSection";
 import SkillsSection from "../Components/SkillsSection";
@@ -6,6 +7,9 @@ import SkillsSection from "../Components/SkillsSection";
 function AboutPage() {
   return (
     <div className="AboutPage">
+      <Helmet>
+        <title>About Akash</title>
+      </Helmet>
       <Tittle title={"About Me"} span={"About Me"} />
       <ImageSection />
       <Tittle title={"My Skills"} span={"My Skills"} />

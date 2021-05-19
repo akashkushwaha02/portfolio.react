@@ -11,13 +11,15 @@ function ImageSection() {
       </div>
       <div className="about-info">
         <h4>
-          I am<span> Akash Singh Kushwaha</span>
+          I am<span> Akash Singh Kushwaha</span>,
         </h4>
         <p className="about-text">
-          A 23 year old Web developer living in Jabalpur, India. I am a Computer
-          Science Engineer, currently looking for a Job as Reactjs Developer.
-          Have a look at my skills and connect with me on LinkedIn. I am always
-          excited to talk with new and great minded people.
+          a 23 year old Web developer living in Jabalpur, India. I am a Computer
+          Science graduate from Global Engineering College 2019 batch, currently
+          looking for a Job as JavaScript/Reactjs Developer. I have around 2
+          years of years of work experience in IT industry. My primary skill is
+          JavaScript. and open to learn new technologies.I am always excited to
+          talk with great minded people.
         </p>
         <div className="about-details">
           <div className="left-section">
